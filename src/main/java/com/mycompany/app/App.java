@@ -5,7 +5,7 @@ package com.mycompany.app;
  */
 public class App {
 
-  private final String message = "Hello World!";
+  private final String message = "Helloo World!";
 
   public App() {}
 
@@ -13,6 +13,7 @@ public class App {
     System.out.println(new App().getMessage());
   }
 
-     
-//     return message;
+  
+    return message;
   }
+}
