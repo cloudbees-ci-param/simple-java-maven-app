@@ -13,7 +13,7 @@ public class App {
     System.out.println(new App().getMessage());
   }
 
-  
+  private final String getMessage() {
     return message;
   }
 }
